@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Metas requeridos -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <title>Hola, mundo!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand bg-success fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">People-Net</a>
+
+
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
+                            class="bi bi-person-fill"></i>Leyan Xia </a>
+                    <ul class="dropdown-menu dropdown-menu-end" data-bs-theme="light">
+                        <li>
+                            <a class="dropdown-item " href="#"> Perfil</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="#"> Cuenta</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#"> Cerrar Sesion</a>
+                        </li>
+
+
+                    </ul>
+
+                </li>
+            </ul>
+
+
+
+        </div>
+    </nav>
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+
+            <div class="col-2 h-100  bg-success-subtle d-none d-md-block" style="padding-left: 0px;">
+                <nav class="navbar ">
+                    <div class="container-fluid">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><i class="bi bi-house"
+                                        style="padding-right: 5px;"></i>Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><i class="bi bi-star"
+                                        style="padding-right: 5px;"></i>Novedades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><i class="bi bi-search"
+                                        style="padding-right: 5px;"></i>Explorar</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><i class="bi bi-people-fill"
+                                        style="padding-right: 5px;"></i>Contactos</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><i class="bi bi-envelope"
+                                        style="padding-right: 5px;"></i>Mesajes</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+
+            </div>
+
+
+            <div class="col-12 col-md-10">
+
+                <div class="form-group cabeza">
+
+                    <label for="exampleFormControlTextarea1">¿Qué estás pensando?</label>
+
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="row separar">
+                    <div class="col ">
+
+                        <button type="submit" class="btn btn-outline-success"> <i class="bi bi-card-image"></i></button>
+
+
+
+                        <button type="submit" class="btn btn-outline-success"> <i
+                                class="bi bi-emoji-smile"></i></button>
+
+
+                        <button type="submit" class="btn btn-outline-success"> <i class="bi bi-geo-alt"></i></button>
+                    </div>
+
+                    <div class="col text-end">
+                        <button type="submit" class="btn btn-success"> Publicar</button>
+                    </div>
+
+                </div>
+
+                <div class="card carta">
+                    <div class="card-title">
+
+                        <img class="foto" src="foto/hombre1.jpg">
+                        <h5>Juan Garcia</h5>
+                        <p> 20 de Septiembre de 2022</p>
+                    </div>
+                    <div class="card-body">
+
+                        <p class="card-text">
+                            En un pequeño pueblo rodeado de exuberante vegetación y montañas majestuosas, la vida
+                            transcurre tranquila y apacible. Los habitantes de este rincón pintoresco son conocidos por
+                            su amabilidad y hospitalidad. Cada mañana, el aroma del café recién hecho se mezcla con el
+                            canto de los pájaros, anunciando un nuevo día lleno de posibilidades.
+
+                            En el centro del pueblo, se encuentra una plaza encantadora con un antiguo quiosco de música
+                            y bancos de madera bajo la sombra de altos árboles. Allí, los lugareños se reúnen para
+                            charlar, compartir historias y disfrutar de la compañía de sus vecinos. Los niños corretean
+                            por el césped mientras los ancianos juegan a las cartas en las mesas cercanas.
+                        </p>
+                        <a href="#" data-bs-toggle="tooltip" class="btn btn-outline-success" title="Me gusta">
+
+                            <i class="bi bi-hand-thumbs-up"></i>
+
+                        </a>
+
+                        <a href="#" data-bs-toggle="tooltip" class="btn btn-outline-success"
+                            class="btn btn-outline-success" title="Guardar">
+                            <i class="bi bi-star"></i>
+                        </a>
+                        <a href="#" data-bs-toggle="tooltip" class="btn btn-outline-success"
+                            class="btn btn-outline-success" title="Compartir">
+                            <i class="bi bi-share"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="card carta">
+                    <div class="card-title">
+
+                        <img class="foto" src="foto/mujer1.jpg">
+                        <h5>Marisa Garcia</h5>
+                        <p> 18 de Septiembre de 2022</p>
+                    </div>
+
+                    <div class="card-body">
+                        <div>
+                            <p class="card-text">
+
+                                El sol brilla en lo alto del cielo, iluminando cada rincón con su cálido abrazo. Las
+                                aves cantan melodías alegres mientras danzan en el aire. El aroma de las flores frescas
+                                llena el ambiente, inundando nuestros sentidos con su fragancia dulce y embriagadora. En
+                                este día radiante, la vida se siente llena de posibilidades y alegría.
+
+                                Las risas de los niños resuenan en el parque, mientras corren y juegan sin
+                                preocupaciones. Los amigos se reúnen en terrazas soleadas, brindando con bebidas
+                                refrescantes y compartiendo historias y risas. En cada esquina, hay muestras de amor y
+                                amistad, recordándonos que la felicidad se encuentra en las pequeñas cosas de la vida.
+                            </p>
+                        </div>
+                        
+                        <a href="#" data-bs-toggle="tooltip" class="btn btn-outline-success" title="Me gusta">
+
+                            <i class="bi bi-hand-thumbs-up"></i>
+
+                        </a>
+
+                        <a href="#" data-bs-toggle="tooltip" class="btn btn-outline-success"
+                            class="btn btn-outline-success" title="Guardar">
+                            <i class="bi bi-star"></i>
+                        </a>
+                        <a href="#" data-bs-toggle="tooltip" class="btn btn-outline-success"
+                            class="btn btn-outline-success" title="Compartir">
+                            <i class="bi bi-share"></i>
+                        </a>
+
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <nav class="navbar navbar-expand bg-success-subtle fixed-bottom d-md-none bajo" data-bs-theme="light">
+        <div class="container-fluid justify-content-center">
+
+            <ul class="navbar-nav fs-4">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="bi bi-house-fill "></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="bi bi-star-fill"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="bi bi-people-fill"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="bi bi-envelope-fill"></i></a>
+                </li>
+            </ul>
+
+
+        </div>
+    </nav>
+
+
+
+
+    <!-- Versión bundle de Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <script>
+        // Obtiene la lista de elementos con data-bs-toggle='tooltip'
+        const lst = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        // Para cada elemento crea un objeto Tooltip de Bootstrap
+        const tooltips = [...lst].map(el => new bootstrap.Tooltip(el));
+    </script>
+</body>
+
+</html>

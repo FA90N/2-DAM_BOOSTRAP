@@ -1,0 +1,36 @@
+body{
+    padding-top: 58px;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+
+.cabeza{
+    padding-top: 20px;
+}
+.separar{
+    padding-top: 10px;
+}
+.carta{
+
+    margin-top: 10px;
+}
+
+.foto {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px; /* Imagen circular */
+    float: left; /* Alineada a la izquierda */
+    margin: 10px; /* Añade separación del texto */
+}
+h5{
+    margin: 10px;
+}
+.bajo{
+    height: 50px;
+}
+
+p{
+    text-align: justify;
+}

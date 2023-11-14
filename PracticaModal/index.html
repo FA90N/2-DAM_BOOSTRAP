@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Metas requeridos -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <title>PERSONAS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>PERSONAS</h1>
+        <table class="table table-striped table-hover table-border">
+
+
+            <thead class="table-primary">
+                <tr>
+                    <th><i class="bi bi-card-list"></i> ID</th>
+                    <th><i class="bi bi-person"></i> Nombre</th>
+                    <th><i class="bi bi-envelope"></i> E-mail</th>
+                    <th><i class="bi bi-gear"></i> Acciones</th>
+
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Juan Garcia</td>
+                    <td>jgarcia@gmail.com</td>
+                    <td>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#juan"><i class="bi bi-eye"></i> Ver</button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#juanborrar"><i class="bi bi-x-circle"></i> Borrar</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Ana Garcia</td>
+                    <td>agarcia@gmail.com</td>
+                    <td>
+                        <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i> Ver</button>
+                        <button type="button" class="btn btn-danger"><i class="bi bi-x-circle"></i> Borrar</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Luis Pereza</td>
+                    <td>lperez@gmail.com</td>
+                    <td>
+                        <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i> Ver</button>
+                        <button type="button" class="btn btn-danger"><i class="bi bi-x-circle"></i> Borrar</button>
+                    </td>
+                </tr>
+
+                <tr class="table-warning">
+                    <td>4</td>
+                    <td>Jorge Guilló</td>
+                    <td>jguillo@gmail.com</td>
+                    <td>
+                        <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i> Ver</button>
+                        <button type="button" class="btn btn-danger"><i class="bi bi-x-circle"></i> Borrar</button>
+                    </td>
+                </tr>
+
+             
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="text-end">
+                        4 Contactos
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+
+        <!--Modales-->
+
+        <div class="modal fade" id="juan" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg bg-primary-subtle">
+                    <div class="modal-header">
+                        <h3 class="modal-tittle">
+                                Juan Garcia
+                        </h3>
+                            <button type="button"class=btn-close data-bs-dismiss="modal" aria-label="Cerrar"> </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                                <div class="col-6">
+                                    <img src="juan.png" class="img-fluid">
+                                </div>
+                                
+                                <div class="col-6">
+                                    <p> Nombre: Juan Garcia</p>
+                                    <p> Direccion: Calle Lausana 2</p>
+                                    <p> Email: jgarcia@hotmail.com</p>
+                                    <p> Puesto: Directivo</p>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                                Salir
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="modal fade " id="juanborrar" data-bs-backdrop="static">
+            <div class="modal-dialog ">
+                <div class="modal-content bg bg-warning-subtle">
+                    <div class="modal-header">
+                        <h3 class="modal-tittle">
+                                <h2><i class="bi bi-exclamation-triangle"></i> Borrar Usuario</h2>
+                        </h3>
+                            <button type="button"class=btn-close data-bs-dismiss="modal" aria-label="Cerrar"> </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                                <h3>¿Seguro quieres borrar a Juan Garcia?</h3>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary">
+                            Aceptar
+                        </button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                            Cancelar
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    <!-- Versión bundle de Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>
